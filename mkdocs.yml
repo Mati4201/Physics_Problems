@@ -48,7 +48,7 @@ plugins:
             - Pomiary: '07_Measurements.md'
             - Astronomia i Astrofizyka: '08_Astronomy_and_Astrophysics.md'
             - Kosmologia: '09_Cosmology.md'
-            - Względność: '10_Relativity.md'
+            - Teoria Względności: '10_Relativity.md'
             - Fizyka Współczesna 1: '11_Modern_Physics_1.md'
             - Fizyka Współczesna 2: '12_Modern_Physics_2.md'
             - Rozwiązania:
@@ -62,7 +62,7 @@ plugins:
               - Pomiary: 'Your_solutions/07_Measurements_solutions.md'
               - 'Astronomia i Astrofizyka': 'Your_solutions/08_Astronomy_and_Astrophysics_solutions.md'
               - Kosmologia: 'Your_solutions/09_Cosmology_solutions.md'
-              - Względność: 'Your_solutions/10_Relativity_solutions.md'
+              - 'Teoria Względności': 'Your_solutions/10_Relativity_solutions.md'
               - 'Fizyka Współczesna 1': 'Your_solutions/11_Modern_Physics_1_solutions.md'
               - 'Fizyka Współczesna 2': 'Your_solutions/12_Modern_Physics_2_solutions.md'
         - locale: en
@@ -71,6 +71,19 @@ plugins:
           build: true
           nav:
             - Home: 'index.md'
+            - Extra: 'Extra_things/Extra.md'
+            - Animations:
+              - 'Projectile Motion': 'Animations/projectile_motion.html'
+              - 'Pendulum': 'Animations/pendulum.html'
+              - 'Conics': 'Animations/conics.html'
+              - "Kepler's Laws": 'Animations/kepler.html'
+              - 'Chaotic Pendulum': 'Animations/chaos_pendulum.html'
+              - 'Work Integral': 'Animations/work_integral.html'
+              - 'Flux': 'Animations/flux.html'
+              - 'Electric Field Integration': 'Animations/electric_field_integration.html'
+              - 'Atom Waves': 'Animations/wave_atoms.html'
+              - 'Gravitational Acceleration Measurement': 'Animations/grav_acc_measure.html'
+              - 'Numeric Integrator': 'Animations/numeric_integrator.html'
             - Introduction: '00_Intro.md'
             - 'Mechanics 1': '01_Mechanics_1.md'
             - 'Mechanics 2': '02_Mechanics_2.md'
@@ -84,7 +97,6 @@ plugins:
             - Relativity: '10_Relativity.md'
             - 'Modern Physics 1': '11_Modern_Physics_1.md'
             - 'Modern Physics 2': '12_Modern_Physics_2.md'
-            - Extra: 'Extra_things/Extra.md'
             - Solutions:
               - Introduction: 'Your_solutions/00_Intro_solutions.md'
               - 'Mechanics 1': 'Your_solutions/01_Mechanics_1_solutions.md'
@@ -99,15 +111,3 @@ plugins:
               - Relativity: 'Your_solutions/10_Relativity_solutions.md'
               - 'Modern Physics 1': 'Your_solutions/11_Modern_Physics_1_solutions.md'
               - 'Modern Physics 2': 'Your_solutions/12_Modern_Physics_2_solutions.md'
-            - Animations:
-              - 'Projectile Motion': 'Animations/projectile_motion.html'
-              - 'Pendulum': 'Animations/pendulum.html'
-              - 'Conics': 'Animations/conics.html'
-              - "Kepler's Laws": 'Animations/kepler.html'
-              - 'Chaotic Pendulum': 'Animations/chaos_pendulum.html'
-              - 'Work Integral': 'Animations/work_integral.html'
-              - 'Flux': 'Animations/flux.html'
-              - 'Electric Field Integration': 'Animations/electric_field_integration.html'
-              - 'Atom Waves': 'Animations/wave_atoms.html'
-              - 'Gravitational Acceleration Measurement': 'Animations/grav_acc_measure.html'
-              - 'Numeric Integrator': 'Animations/numeric_integrator.html'

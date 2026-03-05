@@ -1,55 +1,111 @@
-# Section 0: Mathematical Foundations
+```python
+import numpy as np
 
-Your soultions go here!!!!
+a = np.array([2, 1, -3])
+b = np.array([4, -2, 1])
 
----
+mag_a = np.linalg.norm(a)
+mag_b = np.linalg.norm(b)
+dot_ab = np.dot(a, b)
+cross_ab = np.cross(a, b)
+cos_theta = dot_ab / (mag_a * mag_b)
+theta_rad = np.arccos(cos_theta)
+theta_deg = np.degrees(theta_rad)
 
-Below it is just a copy of the tasks, so you can easily navigate to the task you want to solve. You can also use the links in the sidebar to navigate to the tasks.
+print(f"mag_a: {mag_a} (sqrt 14 = {np.sqrt(14)})")
+print(f"mag_b: {mag_b} (sqrt 21 = {np.sqrt(21)})")
+print(f"dot: {dot_ab}")
+print(f"cross: {cross_ab}")
+print(f"theta_deg: {theta_deg}")
+print(f"theta_rad: {theta_rad}")
 
-## 1. Vector Algebra
 
-Given two vectors in 3D space: $\vec{a} = [2, 1, -3]$ and $\vec{b} = [4, -2, 1]$. Calculate:
+```
 
-a) The magnitude of each vector.
+```text
+mag_a: 3.7416573867739413 (sqrt 14 = 3.7416573867739413)
+mag_b: 4.58257569495584 (sqrt 21 = 4.58257569495584)
+dot: 3
+cross: [ -5 -14  -8]
+theta_deg: 79.92346287144585
+theta_rad: 1.3949275767021716
 
-b) The dot product $\vec{a} \cdot \vec{b}$.
 
-c) The cross product $\vec{a} \times \vec{b}$.
+```
 
-d) The angle between vectors $\vec{a}$ and $\vec{b}$.
+Here is the step-by-step solution for the given vectors $\vec{a} = [2, 1, -3]$ and $\vec{b} = [4, -2, 1]$:
 
-## 2. Systems of Equations
+**a) The magnitude of each vector**
 
-Find the values of $x$ and $y$ that satisfy both equations: $2x + 3y = 12$ and $x - y = 1$.
+The magnitude (or length) of a 3D vector $\vec{v} = [x, y, z]$ is given by the formula $|\vec{v}| = \sqrt{x^2 + y^2 + z^2}$.
 
-## 3. Proportionality
+For vector $\vec{a}$:
 
-Consider the Universal Law of Gravitation: $F = G \frac{m_1 m_2}{r^2}$, where $F$ is the gravitational force between two masses $m_1$ and $m_2$, $r$ is the distance between their centers, and $G$ is the gravitational constant. Determine the factor by which the force $F$ changes if the distance $r$ is *doubled* and both masses ($m_1$ and $m_2$) are *halved*.
 
-## 4. Rearranging Formulas
+$$|\vec{a}| = \sqrt{2^2 + 1^2 + (-3)^2}$$
 
-The formula for the period of a simple pendulum is $T = 2\pi \sqrt{\frac{L}{g}}$. Rearrange the equation give a formula for $g$ (acceleration due to gravity).
+$$|\vec{a}| = \sqrt{4 + 1 + 9}$$
 
-## 5. Trigonometry
+$$|\vec{a}| = \sqrt{14} \approx 3.74$$
 
-A vector $\vec{A}$ has a magnitude of $15$ and makes an angle of $\theta = 60^\circ$ with the horizontal axis. Calculate its horizontal and vertical components.
+For vector $\vec{b}$:
 
-## 6. Function Analysis
 
-Consider the function $f(x) = 3x^2 - 12x + 7$. Identify any local maxima or minima.
+$$|\vec{b}| = \sqrt{4^2 + (-2)^2 + 1^2}$$
 
-## 7. Logic & Series
+$$|\vec{b}| = \sqrt{16 + 4 + 1}$$
 
-A bicycle is 10 meters from a wall and moves towards it at a constant speed of $1\text{ m/s}$. A fly starts from the bicycle's front wheel and flies towards the wall at $2\text{ m/s}$. When it hits the wall, it instantly turns back and flies to the bicycle, and so on. What is the total distance the fly travels before being crushed?
+$$|\vec{b}| = \sqrt{21} \approx 4.58$$
 
-## 8. Definite Integrals
+**b) The dot product $\vec{a} \cdot \vec{b}$**
 
-Calculate the area under the curve of the function $f(x) = \sin(x)$ from $x=0$ to $x=\pi$.
+The dot product is calculated as $\vec{a} \cdot \vec{b} = a_x b_x + a_y b_y + a_z b_z$.
 
-## 9. Optimization Problem
+$$\vec{a} \cdot \vec{b} = (2)(4) + (1)(-2) + (-3)(1)$$
 
-A rectangle is under the curve $y = 3 - x^2$ in the first quadrant. What are the dimensions of the rectangle with the maximum area?
+$$\vec{a} \cdot \vec{b} = 8 - 2 - 3$$
 
-## 10. Infinite Series
+$$\vec{a} \cdot \vec{b} = 3$$
 
-Determine the final position of an ant that starts at the origin and moves according to the following pattern: 1 m east, 1/2 m north, 1/3 m west, 1/4 m south, 1/5 m east, and so on.
+**c) The cross product $\vec{a} \times \vec{b}$**
+
+The cross product can be found by evaluating the determinant of the formal matrix:
+
+$$\vec{a} \times \vec{b} = \begin{vmatrix} 
+\mathbf{i} & \mathbf{j} & \mathbf{k} \\ 
+2 & 1 & -3 \\ 
+4 & -2 & 1 
+\end{vmatrix}$$
+
+Expanding this along the top row:
+
+
+$$= \mathbf{i}((1)(1) - (-3)(-2)) - \mathbf{j}((2)(1) - (-3)(4)) + \mathbf{k}((2)(-2) - (1)(4))$$
+
+$$= \mathbf{i}(1 - 6) - \mathbf{j}(2 - (-12)) + \mathbf{k}(-4 - 4)$$
+
+$$= \mathbf{i}(-5) - \mathbf{j}(14) + \mathbf{k}(-8)$$
+
+So, the cross product is $[-5, -14, -8]$.
+
+**d) The angle between vectors $\vec{a}$ and $\vec{b}$**
+
+The angle $\theta$ between two vectors can be found using the dot product formula: $\vec{a} \cdot \vec{b} = |\vec{a}| |\vec{b}| \cos(\theta)$.
+
+Rearranging to solve for $\cos(\theta)$:
+
+
+$$\cos(\theta) = \frac{\vec{a} \cdot \vec{b}}{|\vec{a}| |\vec{b}|}$$
+
+$$\cos(\theta) = \frac{3}{\sqrt{14} \cdot \sqrt{21}}$$
+
+$$\cos(\theta) = \frac{3}{\sqrt{294}} = \frac{3}{7\sqrt{6}}$$
+
+Now, solve for $\theta$:
+
+
+$$\cos(\theta) \approx 0.17496$$
+
+$$\theta = \arccos(0.17496)$$
+
+$$\theta \approx 79.92^\circ \text{ (or } 1.395 \text{ radians)}$$

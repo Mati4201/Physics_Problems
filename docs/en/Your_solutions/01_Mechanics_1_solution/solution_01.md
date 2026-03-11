@@ -1,6 +1,6 @@
 ## Question 1: Projectile Motion
 
-**The Setup**
+The Setup
 An object is launched with an initial velocity of **100 m/s** at an angle of **37°** above the horizontal. We assume standard gravity (**9.8 m/s²**) and zero air resistance. For clean calculations, we will use the standard geometric approximations for a 37° angle:
 
 * $\sin(37^\circ) \approx 0.60$

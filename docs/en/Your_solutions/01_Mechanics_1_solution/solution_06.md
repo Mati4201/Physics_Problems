@@ -134,6 +134,3 @@ The acceleration is always increasing (constant slope = 2) and becomes increasin
 
 ![Velocity and Acceleration plots](plots.png)
 
-Ctr+V
-
-![alt text](image.png)

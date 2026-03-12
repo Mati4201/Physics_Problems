@@ -195,3 +195,5 @@ $$
 $$
 \theta=\arccos\!\left(\frac{3}{\sqrt{294}}\right)\approx 79.9^\circ
 $$
+
+![alt text](image.png)

@@ -1,8 +1,8 @@
+## 10. Wave Sources
+
 $$u = \sum \left( \frac{A}{d^\alpha} \right) \sin(k \cdot d - \omega \cdot t)$$
 
-This equation represents the **Principle of Superposition** for waves—it calculates the total effect of multiple wave sources overlapping at a specific point in space and time. 
 
-Here is the breakdown of what each symbol means:
 
 * **$u$ (Total Displacement):** The final calculated height or strength of the wave at a specific point on the canvas. 
 * **$\sum$ (Sigma / Summation):** This tells us to add up the individual displacements from *every* active wave source. If you have three sources dropping ripples, you calculate the formula for each one and add the results together.

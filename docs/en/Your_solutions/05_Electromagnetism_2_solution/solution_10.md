@@ -33,5 +33,5 @@ $$v = \frac{c}{n}$$
 *   **Step 3: Calculate.**
     *   $$v \approx 1.24 \times 10^8 \text{ m/s}$$
 
-### 💡 Key Takeaway
+###  Key Takeaway
 A diamond has an exceptionally high refractive index ($n = 2.42$). This means it slows light down to less than half of its normal speed (from $300,000 \text{ km/s}$ down to $124,000 \text{ km/s}$). This extreme slowing and bending of light is exactly what causes diamonds to sparkle so brilliantly!

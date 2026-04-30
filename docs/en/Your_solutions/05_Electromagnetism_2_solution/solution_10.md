@@ -25,6 +25,5 @@ For a diamond, you are given $n = 2.42$. This is an exceptionally high refractiv
 $$v = \frac{3.00 \times 10^8 \text{ m/s}}{2.42}$$
 $$v \approx 1.24 \times 10^8 \text{ m/s}$$
 
-**What this means:** When light enters a diamond, it slows down drastically. It travels at about **$1.24 \times 10^8$ meters per second**, which is only about $41\%$ of its normal speed in a vacuum! This extreme slowing and bending of light is exactly what gives diamonds their famous, brilliant sparkle.
 
 

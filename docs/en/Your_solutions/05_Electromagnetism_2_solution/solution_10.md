@@ -20,7 +20,7 @@ $$v = \frac{c}{n}$$
 **Where:**
 *   **$v$** = Speed of light in the specific medium (m/s)
 *   **$c$** = Speed of light in a vacuum ($\approx 3.00 \times 10^8 \text{ m/s}$) 
-*   **$n$** = Index of refraction of the medium (unitless)
+*   **$n$** = Index of refraction of the medium 
 
 ### 3. Anwser
 **The Problem:** Find the speed of light in a diamond ($n = 2.42$).

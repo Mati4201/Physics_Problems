@@ -26,8 +26,8 @@ $$v = \frac{c}{n}$$
 **The Problem:** Find the speed of light in a diamond ($n = 2.42$).
 
 *   **Step 1: Identify your knowns.**
-    *   $c = 3.00 \times 10^8 \text{ m/s}$ *(Standard constant)*
-    *   $n = 2.42$ *(Given)*
+    *   $c = 3.00 \times 10^8 \text{ m/s}$ 
+    *   $n = 2.42$ 
 *   **Step 2: Set up the equation.**
     *   $$v = \frac{3.00 \times 10^8}{2.42}$$
 *   **Step 3: Calculate.**

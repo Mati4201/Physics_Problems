@@ -14,7 +14,6 @@ This means the speedometer's reading could be off by exactly 3 km/h in either di
 
 To find the actual speed range, subtract and add the absolute uncertainty to the original reading:
 
-* **Minimum possible speed:** $60 - 3 = 57 \text{ km/h}$
-* **Maximum possible speed:** $60 + 3 = 63 \text{ km/h}$
+
 
 The range of the car's actual speed is **57 km/h to 63 km/h**.

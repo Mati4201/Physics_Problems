@@ -1,3 +1,7 @@
+## 2. Time Dilation
+
+Two identical devices, each playing a series of 1-hour episodes of a TV show, were built and synchronized on Earth. One device stayed on Earth, while the other was placed on a spaceship that was immediately accelerated to relativistic speed. How fast must the spaceship be moving for the device on Earth to have played 2 episodes while the device on the spaceship has played only 1 episode?
+
 
 
 ### **1: The Logic**
@@ -13,7 +17,6 @@ Einstein’s Theory of Special Relativity tells us that the speed of light ($c$)
 
 To the Earthling, 2 hours have passed. To the Astronaut, only 1 hour has passed. Moving clocks run slow!
 
----
 
 ### **2: The Mathematical Solution**
 
